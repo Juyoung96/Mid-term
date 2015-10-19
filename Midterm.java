@@ -1,19 +1,20 @@
 /*
- * Midterm.java
- * Write our normal 4-line documentation here (with your name, etc)
+ * Project: Midterm
+ * Description: It is toooooo difficult. I cannot do it myself
+ * Name: Juyoung
+ * Date: Oct 19, 2015
  */
-
-// You will need a Scanner object
 
 /*
  * Begin the class here
  */
-public {
+public class Midterm{
   
   /*
    * Begin the main method here
    */
-  public {
+
+  public static void main( String[] args ) {
    
     // STEP 1: Create a NEW 'Test' object in a NEW 'Test.java' file (details below)
     /*
@@ -65,15 +66,17 @@ public {
      *                b) use a SWITCH statement to print a comment based on the Letter grade
      */
     
-    // STEP 2: Initialize a Scanner() object here
+    // STEP 2: Initialize your Test() object here
+    Test Juyoung = new Test();
     
-    // STEP 3: Initialize your Test() object here
+    // STEP 3: askQuestions() here
+   Juyoung.askQuestions();
     
-    // STEP 4: askQuestions( Scanner ) here - pass in your Scanner object
+    // STEP 4: chkAnswers() here
+    Juyoung.chkAnswers();
     
-    // STEP 5: chkAnswers() here
-    
-    // STEP 6: Print the grade here < use System.out.println( printGrade( calcGrade() ) ); >
+    // STEP 6: Print the grade here
+    Juyoung.printGrade( Juyoung.calcGrade() );
     
   } // END main method
   
